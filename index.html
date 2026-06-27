@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rohit Thakur — Senior Manager IT, Infrastructure & Security | RightWave</title>
+<meta name="description" content="Rohit Thakur — Senior Manager & Head of IT at RightWave. 15+ years in enterprise infrastructure, VMware, security, email deliverability, and AI automation. Creator of UtsavRaag and Vlogs by Rohit Thakur.">
+<link rel="canonical" href="https://rohitthakur.in/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://rohitthakur.in/">
+<meta property="og:title" content="Rohit Thakur — Senior Manager IT & Infrastructure">
+<meta property="og:description" content="Head of IT at RightWave. Enterprise infrastructure, VMware, security, email deliverability, AI automation. Creator on YouTube.">
+<meta property="og:image" content="https://rohitthakur.in/assets/img/og-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="en_IN">
+<meta property="og:site_name" content="Rohit Thakur">
+
+<!-- Twitter card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Rohit Thakur — Senior Manager IT & Infrastructure">
+<meta name="twitter:description" content="Head of IT at RightWave. Enterprise infrastructure, VMware, security, AI automation. Creator on YouTube.">
+<meta name="twitter:image" content="https://rohitthakur.in/assets/img/og-card.png">
+
+<!-- Schema.org Person -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Rohit Thakur",
+  "alternateName": "Rohit Kumar Thakur",
+  "url": "https://rohitthakur.in",
+  "image": "https://rohitthakur.in/assets/img/rohit-portrait.webp",
+  "jobTitle": "Senior Manager – Server Admin",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "RightWave"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Noida",
+    "addressRegion": "Uttar Pradesh",
+    "addressCountry": "IN"
+  },
+  "knowsAbout": [
+    "Server Administration","VMware","Infrastructure Management","Information Security",
+    "ISO 27001","Email Deliverability","SPF DKIM DMARC","pfSense","SSL Certificates",
+    "Linux","WordPress","AI Automation","n8n","Zapier","ChatGPT"
+  ],
+  "sameAs": [
+    "https://www.linkedin.com/in/rohitthakur87",
+    "https://github.com/rohitthakurin",
+    "https://www.youtube.com/@UtsavRaag",
+    "https://www.youtube.com/@VlogsbyRohitThakur",
+    "https://www.instagram.com/utsavraag",
+    "https://www.instagram.com/vlogsbyrohitthakur"
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0b0a14;--bg2:#100e1c;--panel:rgba(255,255,255,.028);--line:rgba(255,255,255,.08);
+    --ink:#edecf6;--muted:#9b9ab8;--faint:#6c6b88;
+    --violet:#7c5cfc;--violet2:#a855f7;--indigo:#6366f1;--live:#4ade80;--yt:#ff4d4d;
+    --disp:"Space Grotesk",ui-sans-serif,system-ui,sans-serif;
+    --sans:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+    --mono:ui-monospace,"SFMono-Regular","Cascadia Code",Menlo,monospace;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{background:var(--bg);color:var(--ink);font-family:var(--sans);line-height:1.65;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+  a{color:inherit;text-decoration:none}
+  h1,h2,h3,.disp{font-family:var(--disp);letter-spacing:-.02em}
+  .wrap{max-width:1140px;margin:0 auto;padding:0 24px}
+  .eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--violet);
+    background:rgba(124,92,252,.1);border:1px solid rgba(124,92,252,.25);border-radius:7px;padding:5px 11px;display:inline-block}
+  .accent{color:var(--violet)}
+
+  nav{position:sticky;top:0;z-index:30;background:rgba(11,10,20,.72);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+  .nav-in{display:flex;align-items:center;justify-content:space-between;padding:15px 24px;max-width:1140px;margin:0 auto}
+  .logo{font-family:var(--disp);font-weight:700;font-size:19px;display:flex;align-items:center;gap:9px}
+  .logo .br{color:var(--violet);font-family:var(--mono)}
+  .nlinks{display:flex;gap:24px;font-size:14.5px;color:var(--muted)}
+  .nlinks a:hover{color:var(--ink)}
+  .nlinks .soon{color:var(--faint);display:inline-flex;align-items:center;gap:7px}
+  .spill{font-family:var(--mono);font-size:9.5px;border:1px solid var(--line);border-radius:99px;padding:1px 7px}
+  .cta{font-family:var(--disp);font-weight:600;font-size:14px;padding:10px 20px;border-radius:9px;
+    background:linear-gradient(135deg,var(--violet),var(--violet2));color:#fff;transition:transform .15s,box-shadow .2s}
+  .cta:hover{transform:translateY(-2px);box-shadow:0 10px 30px rgba(124,92,252,.4)}
+
+  .hero{position:relative;padding:70px 0 64px}
+  .hero-grid{display:grid;grid-template-columns:1.04fr .96fr;gap:40px;align-items:center}
+  .hero h1{font-size:clamp(40px,5.2vw,64px);font-weight:700;line-height:1.05;margin:22px 0 0}
+  .hero h1 .l2{display:block}
+  .lead{color:var(--muted);font-size:16.5px;max-width:450px;margin:18px 0 18px}
+  .role{display:inline-flex;align-items:center;gap:9px;font-size:14px;color:var(--ink);background:var(--panel);
+    border:1px solid var(--line);border-radius:99px;padding:7px 15px;margin-bottom:26px}
+  .role .rd{width:8px;height:8px;border-radius:50%;background:var(--live);flex:none}
+  .btns{display:flex;gap:14px;flex-wrap:wrap}
+  .btn{font-family:var(--disp);font-weight:600;font-size:15px;padding:13px 24px;border-radius:10px;display:inline-flex;align-items:center;gap:9px;transition:transform .15s,box-shadow .2s,border-color .2s}
+  .btn-p{background:linear-gradient(135deg,var(--violet),var(--indigo));color:#fff;box-shadow:0 8px 26px rgba(124,92,252,.35)}
+  .btn-p:hover{transform:translateY(-2px);box-shadow:0 12px 34px rgba(124,92,252,.5)}
+  .btn-o{border:1px solid var(--line);background:var(--panel);color:var(--ink)}
+  .btn-o:hover{transform:translateY(-2px);border-color:var(--violet)}
+
+  .portrait{position:relative;height:470px}
+  .pring{position:absolute;top:26px;left:50%;transform:translateX(-50%);width:336px;height:336px;border-radius:50%;
+    background:radial-gradient(circle,rgba(124,92,252,.42),rgba(99,102,241,.14) 54%,transparent 72%);
+    border:1px solid rgba(124,92,252,.22);box-shadow:0 0 64px rgba(124,92,252,.26);z-index:0}
+  .photo{position:absolute;bottom:86px;left:50%;transform:translateX(-50%);height:336px;width:auto;z-index:2;
+    filter:drop-shadow(0 16px 34px rgba(0,0,0,.5));
+    -webkit-mask-image:linear-gradient(to bottom,#000 86%,transparent);mask-image:linear-gradient(to bottom,#000 86%,transparent)}
+  .dots{position:absolute;top:8px;right:6px;width:88px;height:88px;opacity:.42;
+    background-image:radial-gradient(rgba(255,255,255,.45) 1.4px,transparent 1.4px);background-size:15px 15px}
+  .codecard{position:absolute;bottom:44px;left:2px;width:224px;background:#0e0d1a;border:1px solid var(--line);border-radius:12px;
+    font-family:var(--mono);font-size:12px;line-height:1.7;box-shadow:0 24px 60px rgba(0,0,0,.5);overflow:hidden;z-index:3}
+  .cc-top{display:flex;align-items:center;justify-content:space-between;padding:8px 12px;border-bottom:1px solid var(--line);color:var(--faint);font-size:10.5px}
+  .cc-top .on{display:flex;align-items:center;gap:6px;color:var(--live)}
+  .cc-top .od{width:7px;height:7px;border-radius:50%;background:var(--live)}
+  .cc-body{padding:12px}
+  .k{color:#c4b5fd}.s{color:#7dd3fc}.v{color:#86efac}
+
+  section{padding:56px 0;position:relative}
+  .center{text-align:center}.center .eyebrow{margin-bottom:14px}
+  .h2{font-size:clamp(27px,4vw,37px);font-weight:700}
+  .underbar{width:54px;height:3px;background:linear-gradient(90deg,var(--violet),var(--violet2));border-radius:3px;margin:14px auto 0}
+
+  .about{display:grid;grid-template-columns:1fr 1fr;gap:54px;align-items:center}
+  .about p{color:var(--muted);margin:18px 0 26px}
+  .stats{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+  .stat{background:var(--panel);border:1px solid var(--line);border-radius:15px;padding:22px;display:flex;gap:15px;align-items:center;transition:transform .2s,border-color .2s}
+  .stat:hover{transform:translateY(-4px);border-color:var(--violet)}
+  .stat .si{width:46px;height:46px;border-radius:12px;display:grid;place-items:center;font-size:20px;
+    background:linear-gradient(135deg,rgba(124,92,252,.25),rgba(99,102,241,.2));border:1px solid var(--line)}
+  .stat .sn{font-family:var(--disp);font-weight:700;font-size:24px;line-height:1}
+  .stat .sl{font-size:13px;color:var(--muted)}
+
+  .sgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(238px,1fr));gap:20px;margin-top:42px}
+  .sgroup{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:22px;transition:border-color .2s}
+  .sgroup:hover{border-color:var(--violet)}
+  .sghead{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--faint);margin-bottom:15px;display:flex;align-items:center;gap:9px}
+  .sghead .gi{color:var(--violet);font-size:14px}
+  .schips{display:flex;flex-wrap:wrap;gap:9px}
+  .schip{font-size:13.5px;color:var(--ink);background:rgba(124,92,252,.08);border:1px solid rgba(124,92,252,.22);border-radius:9px;padding:7px 12px;
+    opacity:0;transform:translateY(9px);transition:opacity .5s ease,transform .5s ease,background .2s,border-color .2s}
+  .sgroup.in .schip{opacity:1;transform:none}
+  .schip:hover{background:rgba(124,92,252,.16);border-color:var(--violet)}
+
+  .projects{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:44px}
+  .pcard{background:var(--panel);border:1px solid var(--line);border-radius:16px;overflow:hidden;transition:transform .22s,border-color .22s,box-shadow .22s}
+  .pcard:hover{transform:translateY(-6px);border-color:var(--violet);box-shadow:0 22px 50px rgba(0,0,0,.45)}
+  .pthumb{height:146px;position:relative;background:linear-gradient(135deg,#1a1730,#0e0d1a)}
+  .pthumb::after{content:"";position:absolute;inset:0;background:radial-gradient(circle at 70% 30%,rgba(124,92,252,.35),transparent 55%)}
+  .pnum{position:absolute;top:14px;left:16px;z-index:1;font-family:var(--mono);font-size:13px;background:rgba(0,0,0,.35);border:1px solid var(--line);border-radius:7px;padding:3px 9px}
+  .pbody{padding:20px}.pbody h3{font-size:18px;font-weight:600;margin-bottom:7px}
+  .pbody p{font-size:13.5px;color:var(--muted);margin-bottom:16px}
+  .plink{font-family:var(--mono);font-size:13px;color:var(--violet);display:inline-flex;gap:6px;align-items:center}
+  .tag{font-family:var(--mono);font-size:11px;color:var(--muted);background:rgba(255,255,255,.04);border:1px solid var(--line);border-radius:6px;padding:3px 8px}
+
+  .channels{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:44px}
+  .chan{display:flex;gap:18px;align-items:flex-start;background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:24px;transition:transform .2s,border-color .2s}
+  .chan:hover{transform:translateY(-5px);border-color:var(--yt)}
+  .chan .yi{width:50px;height:50px;border-radius:13px;display:grid;place-items:center;flex:none;font-size:22px;color:#fff;background:linear-gradient(135deg,#ff4d4d,#d61f1f)}
+  .chan h3{font-size:19px;font-weight:600;margin-bottom:5px}
+  .chan p{font-size:13.5px;color:var(--muted);margin-bottom:12px}
+  .clinks{display:flex;gap:10px;flex-wrap:wrap;margin-top:6px}
+  .clink{font-family:var(--mono);font-size:12.5px;color:var(--muted);background:rgba(255,255,255,.04);border:1px solid var(--line);border-radius:8px;padding:6px 11px;display:inline-flex;align-items:center;gap:6px;transition:border-color .2s,color .2s}
+  .clink:hover{border-color:var(--yt);color:var(--ink)}
+  .vgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:44px}
+  .vcard{background:var(--panel);border:1px solid var(--line);border-radius:16px;overflow:hidden;transition:transform .22s,border-color .22s,box-shadow .22s;display:block}
+  .vcard:hover{transform:translateY(-6px);border-color:var(--yt);box-shadow:0 22px 50px rgba(0,0,0,.45)}
+  .vthumb{aspect-ratio:16/9;position:relative;background:linear-gradient(135deg,#241a30,#0e0d1a);display:grid;place-items:center}
+  .vthumb::after{content:"";position:absolute;inset:0;background:radial-gradient(circle at 62% 38%,rgba(124,92,252,.32),transparent 60%)}
+  .vplay{width:46px;height:46px;border-radius:50%;background:rgba(255,77,77,.92);display:grid;place-items:center;color:#fff;font-size:17px;z-index:1}
+  .vbadge{position:absolute;top:10px;left:10px;z-index:1;font-family:var(--mono);font-size:10.5px;color:var(--ink);background:rgba(0,0,0,.5);border:1px solid var(--line);border-radius:6px;padding:3px 8px}
+  .vbody{padding:16px}.vbody h3{font-size:15px;font-weight:600;line-height:1.35;margin-bottom:10px}
+  .vmeta{font-family:var(--mono);font-size:11.5px;color:var(--faint);display:flex;justify-content:space-between}
+  .vcard:hover .vmeta span:last-child{color:var(--yt)}
+  .vskel{background:var(--panel);border:1px solid var(--line);border-radius:16px;overflow:hidden;min-height:220px;
+    position:relative;}
+  .vskel::after{content:"";position:absolute;inset:0;
+    background:linear-gradient(90deg,transparent 0%,rgba(255,255,255,.04) 50%,transparent 100%);
+    background-size:200% 100%;animation:shimmer 1.4s infinite}
+  @keyframes shimmer{0%{background-position:200% 0}100%{background-position:-200% 0}}
+  @media(max-width:860px){.vgrid{grid-template-columns:1fr}}
+
+  .connect{background:var(--bg2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .connect-grid{display:grid;grid-template-columns:1.1fr 1fr;gap:54px;align-items:center}
+  .connect h2{font-size:clamp(26px,3.5vw,34px);font-weight:700;margin:14px 0 14px}
+  .connect p{color:var(--muted);max-width:420px;margin-bottom:26px}
+  .social{display:flex;flex-direction:column;gap:12px}
+  .srowx{display:flex;align-items:center;gap:13px;padding:14px 16px;background:var(--panel);border:1px solid var(--line);border-radius:12px;font-size:14.5px;transition:transform .18s,border-color .18s}
+  .srowx:hover{transform:translateX(4px);border-color:var(--violet)}
+  .srowx .ic{width:34px;height:34px;border-radius:9px;display:grid;place-items:center;background:rgba(124,92,252,.16);font-size:14px;font-family:var(--mono)}
+  .srowx .hd{margin-left:auto;font-family:var(--mono);font-size:12.5px;color:var(--faint)}
+  .srowx:hover .hd{color:var(--violet)}
+
+  footer{padding:30px 0;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;color:var(--faint);font-family:var(--mono);font-size:12.5px}
+  @media(max-width:1080px){.nlinks{gap:16px;font-size:13.5px}}
+  @media(max-width:960px){.nlinks .soon{display:none}.nlinks{gap:14px;font-size:13px}}
+  @media(max-width:560px){footer{flex-direction:column;text-align:center}}
+
+  .reveal{opacity:0;transform:translateY(28px);transition:opacity .7s ease,transform .7s cubic-bezier(.2,.8,.2,1)}
+  .reveal.in{opacity:1;transform:none}
+
+  @media(max-width:860px){
+    .hero-grid,.about,.connect-grid,.channels{grid-template-columns:1fr;gap:36px}
+    .portrait{height:360px;order:-1}.pring{width:248px;height:248px;top:22px}.photo{height:268px;bottom:60px}
+    .projects{grid-template-columns:1fr}.nlinks{display:none}.codecard{display:none}
+  }
+  @media(prefers-reduced-motion:reduce){
+    *{animation:none!important;transition:none!important;scroll-behavior:auto}
+    .reveal,.schip{opacity:1;transform:none}
+  }
+</style>
+</head>
+<body>
+
+<nav><div class="nav-in">
+  <a class="logo" href="#top"><span class="br">&lt;/&gt;</span> rohit thakur</a>
+  <div class="nlinks">
+    <a href="#top">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#work">Projects</a><a href="#channels">Channels</a><a href="#featured">Featured</a>
+    <span class="soon">Teaching <span class="spill">soon</span></span>
+  </div>
+  <a class="cta" href="#connect">Get in touch ↗</a>
+</div></nav>
+
+<main id="top">
+
+  <section class="hero"><div class="wrap hero-grid">
+    <div>
+      <span class="eyebrow reveal">infrastructure · security · maker</span>
+      <h1 class="reveal">I keep systems <span class="accent">secure</span><span class="l2">&amp; build for the web.</span></h1>
+      <p class="lead reveal">I look after the invisible infrastructure — servers, networks, and security — that keeps a business running. In my own time I build small web tools and create on YouTube.</p>
+      <div class="reveal"><span class="role"><span class="rd"></span>Senior Manager · Server Admin&nbsp;<span style="color:var(--faint)">@&nbsp;RightWave</span></span></div>
+      <div class="btns reveal">
+        <a class="btn btn-p" href="#work">See my work →</a>
+        <a class="btn btn-o" href="#channels">My channels ▶</a>
+      </div>
+    </div>
+    <div class="portrait reveal">
+      <div class="dots" aria-hidden="true"></div>
+      <div class="pring" aria-hidden="true"></div>
+      <img class="photo" src="assets/img/rohit-portrait.webp" alt="Rohit Thakur, Senior Manager — Server Admin">
+      <div class="codecard" aria-hidden="true">
+        <div class="cc-top"><span>&lt;/&gt; rohit.js</span><span class="on"><span class="od"></span>online</span></div>
+        <div class="cc-body"><span class="k">const</span> rohit = {<br>&nbsp;&nbsp;<span class="s">role</span>: <span class="v">"server admin"</span>,<br>&nbsp;&nbsp;<span class="s">keeps</span>: <span class="v">"infra ready"</span>,<br>&nbsp;&nbsp;<span class="s">builds</span>: <span class="v">"web tools"</span><br>};</div>
+      </div>
+    </div>
+  </div></section>
+
+  <section id="about"><div class="wrap about">
+    <div class="reveal">
+      <span class="eyebrow">about me</span>
+      <h2 class="h2" style="margin-top:16px">The infrastructure<br>behind the scenes</h2>
+      <p>Senior Manager & Head of IT at RightWave, overseeing enterprise infrastructure across three locations — US Data Center, Noida DC+Office, and Dehradun branch. I manage Dell PowerEdge/VMware clusters, Windows/Linux VMs, databases (MS SQL, MongoDB, MySQL, Redis), web servers (Tomcat, Apache, Nginx, WordPress), email deliverability (MX/SPF/DKIM/DMARC), pfSense firewalls, ISO 27001/ISMS compliance, and DNS/SSL end-to-end. I've also deployed production platforms from scratch including Rocket.Chat, Moodle, Snipe-IT, and TAO on Linux. In 2026, actively applying AI and automation tools to make IT ops smarter.</p>
+      <a class="btn btn-o" href="#connect">Get in touch →</a>
+    </div>
+    <div class="stats reveal">
+      <div class="stat"><div class="si">⛁</div><div><div class="sn">15+</div><div class="sl">Years in IT</div></div></div>
+      <div class="stat"><div class="si">⏱</div><div><div class="sn">24/7</div><div class="sl">Uptime focus</div></div></div>
+      <div class="stat"><div class="si">▶</div><div><div class="sn">2</div><div class="sl">YouTube channels</div></div></div>
+      <div class="stat"><div class="si">⛨</div><div><div class="sn">Security</div><div class="sl">first, always</div></div></div>
+    </div>
+  </div></section>
+
+  <section id="skills"><div class="wrap">
+    <div class="center reveal"><span class="eyebrow">what i do</span><h2 class="h2" style="margin-top:14px">Skills &amp; capabilities</h2><div class="underbar"></div></div>
+    <div class="sgrid">
+      <div class="sgroup reveal"><div class="sghead"><span class="gi">⛁</span>Infrastructure & servers</div><div class="schips">
+        <span class="schip">Server administration</span>
+        <span class="schip">Dell PowerEdge</span>
+        <span class="schip">VMware vSphere</span>
+        <span class="schip">Virtualization</span>
+        <span class="schip">Windows Server</span>
+        <span class="schip">Linux (Ubuntu / CentOS / Rocky)</span>
+        <span class="schip">Active Directory & domains</span>
+        <span class="schip">MS SQL Server</span>
+        <span class="schip">MongoDB</span>
+        <span class="schip">MySQL</span>
+        <span class="schip">Redis</span>
+        <span class="schip">Apache Tomcat</span>
+        <span class="schip">Apache / Nginx</span>
+        <span class="schip">Google Workspace Admin</span>
+        <span class="schip">Email servers</span>
+        <span class="schip">Backup & DR</span>
+        <span class="schip">Zero-downtime migrations</span>
+        <span class="schip">Multi-location IT management</span>
+      </div></div>
+      <div class="sgroup reveal"><div class="sghead"><span class="gi">✉</span>Email deliverability</div><div class="schips">
+        <span class="schip">MX / SPF / DKIM / DMARC</span>
+        <span class="schip">Email authentication & audits</span>
+        <span class="schip">Marketo</span>
+        <span class="schip">Pardot</span>
+        <span class="schip">HubSpot</span>
+        <span class="schip">IP & domain blacklist monitoring</span>
+        <span class="schip">Sender & domain configuration</span>
+        <span class="schip">99%+ delivery rates</span>
+      </div></div>
+      <div class="sgroup reveal"><div class="sghead"><span class="gi">⛨</span>Network & security</div><div class="schips">
+        <span class="schip">pfSense firewall</span>
+        <span class="schip">Firewalls</span>
+        <span class="schip">Networking</span>
+        <span class="schip">Information security (ISMS)</span>
+        <span class="schip">ISO 27001</span>
+        <span class="schip">Cyber security</span>
+        <span class="schip">IT operations & uptime</span>
+        <span class="schip">SSL/TLS certificate management</span>
+        <span class="schip">CSR generation</span>
+        <span class="schip">JKS (Java KeyStore)</span>
+        <span class="schip">Domain validation (DV/OV)</span>
+        <span class="schip">Certificate installation & renewal</span>
+        <span class="schip">SSL on Apache Tomcat (Java)</span>
+        <span class="schip">SSL on IIS (ASP.NET)</span>
+        <span class="schip">SSL on XAMPP / WordPress (Linux)</span>
+        <span class="schip">Let's Encrypt (Certbot)</span>
+      </div></div>
+      <div class="sgroup reveal"><div class="sghead"><span class="gi">✦</span>AI & automation</div><div class="schips">
+        <span class="schip">ChatGPT & Custom GPTs</span>
+        <span class="schip">Claude (Anthropic)</span>
+        <span class="schip">Gemini</span>
+        <span class="schip">NotebookLM</span>
+        <span class="schip">n8n</span>
+        <span class="schip">Zapier</span>
+        <span class="schip">Make (Integromat)</span>
+        <span class="schip">Google Flow</span>
+        <span class="schip">Lovable</span>
+      </div></div>
+      <div class="sgroup reveal"><div class="sghead"><span class="gi">⚙</span>Self-hosted platforms</div><div class="schips">
+        <span class="schip">WordPress</span>
+        <span class="schip">Elementor</span>
+        <span class="schip">Self-hosted WordPress (Linux)</span>
+        <span class="schip">Hostinger</span>
+        <span class="schip">Rocket.Chat CE</span>
+        <span class="schip">Snipe-IT (asset management)</span>
+        <span class="schip">Moodle LMS</span>
+        <span class="schip">TAO (online exam platform)</span>
+        <span class="schip">Ubuntu Server</span>
+        <span class="schip">LAMP stack</span>
+      <div class="sgroup reveal"><div class="sghead"><span class="gi">☁</span>Cloud, web & domains</div><div class="schips">
+        <span class="schip">Cloud services</span>
+        <span class="schip">Cloudflare</span>
+        <span class="schip">GoDaddy</span>
+        <span class="schip">Namecheap</span>
+        <span class="schip">DurableDNS</span>
+        <span class="schip">DNS management</span>
+        <span class="schip">Domain administration</span>
+        <span class="schip">HTML / CSS / JavaScript</span>
+        <span class="schip">Git & GitHub</span>
+        <span class="schip">Static site deployment</span>
+      </div></div>
+    </div>
+  </div></section>
+
+  <section id="work"><div class="wrap">
+    <div class="center reveal"><span class="eyebrow">featured projects</span><h2 class="h2" style="margin-top:14px">Systems I've built & deployed</h2><div class="underbar"></div></div>
+    <div class="projects" style="grid-template-columns:repeat(auto-fit,minmax(280px,1fr))">
+      <article class="pcard reveal">
+        <div class="pthumb" style="background:linear-gradient(135deg,#1a2744,#0e0d1a)">
+          <span class="pnum">01</span>
+          <div style="position:absolute;inset:0;display:grid;place-items:center;z-index:1;font-size:28px">🌐</div>
+        </div>
+        <div class="pbody">
+          <h3>Company Website</h3>
+          <p>Built RightWave's website from scratch on self-hosted Linux. WordPress + Elementor, full UI, content, plugins, and theme configuration. Later migrated to Hostinger.</p>
+          <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px">
+            <span class="tag">WordPress</span><span class="tag">Elementor</span><span class="tag">Linux</span><span class="tag">Hostinger</span>
+          </div>
+          <span class="plink" style="color:var(--live);cursor:default">✓ Live in production</span>
+        </div>
+      </article>
+      <article class="pcard reveal">
+        <div class="pthumb" style="background:linear-gradient(135deg,#1a1f30,#0e0d1a)">
+          <span class="pnum">02</span>
+          <div style="position:absolute;inset:0;display:grid;place-items:center;z-index:1;font-size:28px">💬</div>
+        </div>
+        <div class="pbody">
+          <h3>Rocket.Chat CE</h3>
+          <p>Deployed and configured Rocket.Chat Community Edition on Ubuntu Server from scratch — company-wide internal messaging platform, self-hosted and fully managed.</p>
+          <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px">
+            <span class="tag">Rocket.Chat</span><span class="tag">Ubuntu</span><span class="tag">Self-hosted</span>
+          </div>
+          <span class="plink" style="color:var(--live);cursor:default">✓ Live in production</span>
+        </div>
+      </article>
+      <article class="pcard reveal">
+        <div class="pthumb" style="background:linear-gradient(135deg,#1a2030,#0e0d1a)">
+          <span class="pnum">03</span>
+          <div style="position:absolute;inset:0;display:grid;place-items:center;z-index:1;font-size:28px">🗃️</div>
+        </div>
+        <div class="pbody">
+          <h3>Snipe-IT Asset Management</h3>
+          <p>Set up Snipe-IT on a dedicated Linux server from scratch — full IT asset tracking for the company, configured and maintained end-to-end.</p>
+          <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px">
+            <span class="tag">Snipe-IT</span><span class="tag">Linux</span><span class="tag">Self-hosted</span>
+          </div>
+          <span class="plink" style="color:var(--live);cursor:default">✓ Live in production</span>
+        </div>
+      </article>
+      <article class="pcard reveal">
+        <div class="pthumb" style="background:linear-gradient(135deg,#1a1a30,#0e0d1a)">
+          <span class="pnum">04</span>
+          <div style="position:absolute;inset:0;display:grid;place-items:center;z-index:1;font-size:28px">📝</div>
+        </div>
+        <div class="pbody">
+          <h3>TAO Online Exam Platform</h3>
+          <p>Deployed TAO testing platform on a Linux VM from scratch — enabling online assessments for the organisation, fully self-hosted and configured.</p>
+          <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px">
+            <span class="tag">TAO</span><span class="tag">Linux VM</span><span class="tag">Self-hosted</span>
+          </div>
+          <span class="plink" style="color:var(--live);cursor:default">✓ Live in production</span>
+        </div>
+      </article>
+      <article class="pcard reveal">
+        <div class="pthumb" style="background:linear-gradient(135deg,#1a2030,#0e0d1a)">
+          <span class="pnum">05</span>
+          <div style="position:absolute;inset:0;display:grid;place-items:center;z-index:1;font-size:28px">🎓</div>
+        </div>
+        <div class="pbody">
+          <h3>Moodle LMS</h3>
+          <p>Set up Moodle Learning Management System on Linux server from scratch — company e-learning portal, configured end-to-end including courses and user management.</p>
+          <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px">
+            <span class="tag">Moodle</span><span class="tag">Linux</span><span class="tag">Self-hosted</span>
+          </div>
+          <span class="plink" style="color:var(--live);cursor:default">✓ Live in production</span>
+        </div>
+      </article>
+      <article class="pcard reveal">
+        <div class="pthumb" style="background:linear-gradient(135deg,#1a1730,#0e0d1a)">
+          <span class="pnum">06</span>
+          <div style="position:absolute;inset:0;display:grid;place-items:center;z-index:1;font-size:28px">🌐</div>
+        </div>
+        <div class="pbody">
+          <h3>rohitthakur.in</h3>
+          <p>This site — hand-coded static HTML/CSS, no framework, no CMS. Deployed on Cloudflare Pages free tier. Built as a personal hub linking work, channels, and projects.</p>
+          <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px">
+            <span class="tag">HTML/CSS</span><span class="tag">Cloudflare</span><span class="tag">Static</span>
+          </div>
+          <a class="plink" href="https://rohitthakur.in" target="_blank" rel="noopener">View live ↗</a>
+        </div>
+      </article>
+    </div>
+  </div></section>
+
+  <section id="channels"><div class="wrap">
+    <div class="center reveal"><span class="eyebrow">my youtube</span><h2 class="h2" style="margin-top:14px">Where I create</h2><div class="underbar"></div></div>
+    <div class="channels">
+      <div class="chan reveal">
+        <span class="yi">▶</span>
+        <div><h3>UtsavRaag</h3><p>Devotional bhajans and festival music — Krishna, Shiv, Hanuman, Mata Rani, and every celebration.</p>
+          <div class="clinks">
+            <a class="clink" href="https://www.youtube.com/@UtsavRaag" target="_blank" rel="noopener">▶ YouTube</a>
+            <a class="clink" href="https://www.instagram.com/utsavraag" target="_blank" rel="noopener">◎ Instagram</a>
+          </div>
+        </div>
+      </div>
+      <div class="chan reveal">
+        <span class="yi">▶</span>
+        <div><h3>Vlogs by Rohit Thakur</h3><p>Family vlogs, India road trips, street food adventures, and real everyday moments.</p>
+          <div class="clinks">
+            <a class="clink" href="https://www.youtube.com/@VlogsbyRohitThakur" target="_blank" rel="noopener">▶ YouTube</a>
+            <a class="clink" href="https://www.instagram.com/vlogsbyrohitthakur" target="_blank" rel="noopener">◎ Instagram</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div></section>
+
+  <section id="videos"><div class="wrap">
+    <div class="center reveal"><span class="eyebrow">latest videos</span><h2 class="h2" style="margin-top:14px">Fresh from my channels</h2><div class="underbar"></div></div>
+    <div class="vgrid" id="vgrid">
+      <div class="vskel"></div><div class="vskel"></div><div class="vskel"></div>
+    </div>
+    <p id="vmore" style="text-align:center;margin-top:28px;display:flex;gap:18px;justify-content:center;flex-wrap:wrap">
+      <a class="btn btn-o" href="https://www.youtube.com/@UtsavRaag" target="_blank" rel="noopener" style="font-size:13.5px;padding:10px 18px">▶ UtsavRaag</a>
+      <a class="btn btn-o" href="https://www.youtube.com/@VlogsbyRohitThakur" target="_blank" rel="noopener" style="font-size:13.5px;padding:10px 18px">▶ Vlogs by Rohit Thakur</a>
+    </p>
+  </div></section>
+
+  <section id="featured"><div class="wrap">
+    <div class="center reveal"><span class="eyebrow">featured post</span><h2 class="h2" style="margin-top:14px">As seen on LinkedIn</h2><div class="underbar"></div></div>
+    <div class="reveal" style="margin-top:40px;display:flex;flex-direction:column;align-items:center;gap:18px">
+      <p style="text-align:center;font-size:14px;color:var(--muted);max-width:480px">RightWave featured me in their <em>Humans of RightWave</em> series — a recognition of the infrastructure work that keeps the business running.</p>
+      <div style="width:100%;max-width:540px;border-radius:16px;overflow:hidden;border:1px solid var(--line)">
+        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7476290709885677568" 
+          height="570" width="100%" frameborder="0" allowfullscreen title="RightWave: Humans of RightWave — Rohit Thakur"
+          style="display:block;background:#0b0a14"></iframe>
+      </div>
+      <a class="btn btn-o" href="https://www.linkedin.com/posts/rightwave_humansofrightwave-itoperations-infrastructure-activity-7476290709885677568-YvRP" 
+        target="_blank" rel="noopener" style="font-size:13.5px;padding:10px 18px">View on LinkedIn ↗</a>
+    </div>
+  </div></section>
+
+  <section id="connect" class="connect"><div class="wrap connect-grid">
+    <div class="reveal">
+      <span class="eyebrow">let's connect</span>
+      <h2>Have something in mind?</h2>
+      <p>Open to interesting problems, collaborations, and conversations. The best ways to reach me and follow the work are right here.</p>
+      <a class="btn btn-p" href="mailto:mail2rohitthakur@gmail.com">Say hello →</a>
+    </div>
+    <div class="social reveal">
+      <a class="srowx" href="https://www.linkedin.com/in/rohitthakur87/" target="_blank" rel="noopener"><span class="ic">in</span><span>LinkedIn</span><span class="hd">/in/rohitthakur87 ↗</span></a>
+      <a class="srowx" href="https://github.com/rohitthakurin" target="_blank" rel="noopener"><span class="ic">gh</span><span>GitHub</span><span class="hd">@rohitthakurin ↗</span></a>
+      <a class="srowx" href="mailto:mail2rohitthakur@gmail.com"><span class="ic">@</span><span>Email</span><span class="hd">mail2rohitthakur ↗</span></a>
+    </div>
+  </div></section>
+
+  <div class="wrap"><footer><span>© 2026 Rohit Thakur · all rights reserved</span><span>built static · hosted on the edge</span></footer></div>
+</main>
+
+<script>
+  const rm=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(!rm){
+    const io=new IntersectionObserver((es)=>{es.forEach(e=>{if(e.isIntersecting){
+      e.target.classList.add('in');
+      if(e.target.classList.contains('sgroup')){[...e.target.querySelectorAll('.schip')].forEach((c,i)=>c.style.transitionDelay=(i*55)+'ms');}
+      io.unobserve(e.target);
+    }})},{threshold:.14});
+    document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+  }
+</script>
+<script>
+(async()=>{
+  const CHANNELS=[
+    {id:'UCTlbsyz4bFG755aJRcVfzaw',label:'UtsavRaag',take:2},
+    {id:'UCkOZjHl-LjhCxKeUUMIIuGg',label:'Vlogs by Rohit Thakur',take:1}
+  ];
+
+  function ytThumb(vid){return `https://i.ytimg.com/vi/${vid}/hqdefault.jpg`}
+
+  async function viaRss2Json(id){
+    const feedUrl=`https://www.youtube.com/feeds/videos.xml?channel_id=${id}`;
+    const api=`https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(feedUrl)}&count=3`;
+    const r=await fetch(api,{cache:'no-store'});
+    const j=await r.json();
+    if(j.status!=='ok') throw new Error(j.message);
+    return j.items.map(it=>{
+      const vid=it.link.split('v=')[1]?.split('&')[0]||'';
+      return {title:it.title,vid,thumb:ytThumb(vid),link:it.link};
+    });
+  }
+
+  async function viaAllOrigins(id){
+    const feedUrl=`https://www.youtube.com/feeds/videos.xml?channel_id=${id}`;
+    const api=`https://api.allorigins.win/get?url=${encodeURIComponent(feedUrl)}`;
+    const r=await fetch(api,{cache:'no-store'});
+    const j=await r.json();
+    const doc=new DOMParser().parseFromString(j.contents,'text/xml');
+    return [...doc.querySelectorAll('entry')].slice(0,3).map(e=>{
+      const vid=e.querySelector('videoId')?.textContent||'';
+      return {title:e.querySelector('title')?.textContent||'',vid,thumb:ytThumb(vid),link:`https://www.youtube.com/watch?v=${vid}`};
+    });
+  }
+
+  async function getVideos(ch){
+    try{return await viaRss2Json(ch.id);}catch(_){
+      try{return await viaAllOrigins(ch.id);}catch(__){return [];}
+    }
+  }
+
+  const grid=document.getElementById('vgrid');
+
+  try{
+    const [v1,v2]=await Promise.all([getVideos(CHANNELS[0]),getVideos(CHANNELS[1])]);
+    // interleave: UR, Vlogs, UR
+    const videos=[v1[0],v2[0],v1[1]].filter(v=>v&&v.vid);
+    if(!videos.length){grid.innerHTML='';return;}
+    const labels={[CHANNELS[0].id]:'UtsavRaag',[CHANNELS[1].id]:'Vlogs by Rohit Thakur'};
+    const srcs=[
+      {v:videos[0],ch:CHANNELS[0]},
+      {v:videos[1],ch:CHANNELS[1]},
+      {v:videos[2],ch:CHANNELS[0]}
+    ].filter(x=>x.v&&x.v.vid);
+    grid.innerHTML=srcs.map(({v,ch})=>`
+      <a class="vcard reveal in" href="${v.link}" target="_blank" rel="noopener">
+        <div class="vthumb" style="background:none;overflow:hidden">
+          <span class="vbadge">${ch.label}</span>
+          <img src="${v.thumb}" alt="${v.title.replace(/"/g,'&quot;')}"
+               loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block"
+               onerror="this.style.display='none'">
+          <span class="vplay" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)">▶</span>
+        </div>
+        <div class="vbody">
+          <h3>${v.title}</h3>
+          <div class="vmeta"><span>${ch.label}</span><span>Watch on YouTube ↗</span></div>
+        </div>
+      </a>`).join('');
+  }catch(e){grid.innerHTML='';}
+})();
+</script>
+</body>
+</html>
